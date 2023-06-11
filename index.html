@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <title>Tic tac toe</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1 class="title">Tic Tac Toe</h1>
+    <div id="board">
+      <p class="cell" data-idx="0"></p>
+      <p class="cell" data-idx="1"></p>
+      <p class="cell" data-idx="2"></p>
+      <p class="cell" data-idx="3"></p>
+      <p class="cell" data-idx="4"></p>
+      <p class="cell" data-idx="5"></p>
+      <p class="cell" data-idx="6"></p>
+      <p class="cell" data-idx="7"></p>
+      <p class="cell" data-idx="8"></p>
+    </div>
+    <div id="winner"></div>
+    <button id="restart-btn">Restart</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <button id="pvp-btn">Player <br> vs <br> Player</button>
+        <button id="pvai-btn">Player <br> vs <br> Machine</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>Developed by <span>Alvaro-IHC</span></footer>
+</body>
+
+</html>
